@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header Styles */
@@ -90,6 +90,7 @@ nav img {
   position: relative;
   cursor: pointer;
   transition: 0.5s ease;
+  border-radius: 5px;
 }
 
 .hero-btn:hover {
@@ -118,7 +119,7 @@ nav .fa {
   height: 100vh;
   width: 200px;
   top: 0;
-  right: 0;
+  right: -200px;
   text-align: left;
   z-index: 2;
 }
@@ -129,5 +130,10 @@ nav .fa {
   margin: 10px;
   font-size: 22px;
   cursor: pointer;
+} 
+
+.nav-links ul {
+  padding: 30px;
 }
+
 }
