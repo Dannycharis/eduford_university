@@ -178,6 +178,72 @@ p {
 h3 {
   text-align: center;
   font-weight: 600;
-
   margin: 10px;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:700px){
+  .row{
+     flex-direction: column;
+     gap: 12px;
+  }
+
+  .course-col{
+    padding: 25px 12px;
+  }
+}
+
+/* Campus Section */
+
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-col img {
+  width: 100%;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(226, 0, 0, 0.7);
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 700ms;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
 }
