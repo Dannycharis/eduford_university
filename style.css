@@ -113,6 +113,10 @@ nav .fa {
     display: block;
   }
 
+  .nav-links ul li a:hover {
+    opacity: 0.8;
+  }
+
   .nav-links {
     position: absolute;
     background: #f44336;
@@ -139,7 +143,6 @@ nav .fa {
     font-size: 22px;
     cursor: pointer;
   }
-
 
   .nav-links ul {
     padding: 30px;
@@ -223,6 +226,7 @@ h3 {
 }
 .campus-col img {
   width: 100%;
+  display: block;
 }
 
 .layer {
@@ -255,4 +259,35 @@ h3 {
 .layer:hover h3 {
   bottom: 49%;
   opacity: 1;
+}
+
+
+/* --------------Facilities------------------ */
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities-col p{
+  padding: 0;
+}
+
+.facilities-col h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
 }
